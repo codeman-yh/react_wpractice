@@ -1,0 +1,92 @@
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+.content {
+  width: 1000px;
+  margin: 0 auto;
+}
+.content h1{
+  margin-top: 30px;
+  margin-bottom: 20px;
+  font-weight: 500;
+}
+.routeTab {
+  display: flex;
+  margin-top: 20px;
+}
+.routeTab a{
+  display: inline-block;
+  width: 200px;
+  padding-left:20px;
+  height: 45px;
+  line-height: 45px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  color: #555555;
+}
+.routeTab a.about{
+  border-bottom: none;
+  border-radius:4px 4px 0 0;
+}
+.routeTab a:hover{
+  background-color: #F5F5F5;
+}
+.routeTab a.home{
+  border-radius:0 0 4px 4px;
+}
+.routeTab a.active{
+  color: white;
+  background-color: #337AB7;
+}
+.routeTab .route{
+  width: 770px;
+/*   margin-left: 40px; */
+  line-height: 95px;
+  font-size: 28px;
+  border-bottom: 1px solid #ccc;
+}
+.routeTab .home-content{
+  margin-left: 40px;
+}
+.routeTab .home-tab{
+  height: 147px;
+  position: relative;
+}
+.routeTab .home-content .route{
+  padding-bottom: 30px;
+}
+.routeTab .home-content a{
+  position: absolute;
+  padding-left: 0;
+  text-align: center;
+  bottom: 21px;
+  border-radius: 4px;
+}
+.routeTab .home-content a.active{
+  color: white;
+  background-color: #337AB7;
+}
+.routeTab .home-content a.news{
+  width: 70px;
+  left: 0px;
+}
+.routeTab .home-content a.message{
+  width: 90px;
+  left: 78px;
+}
+.routeTab .home-content .message-content a{
+  display: inline;
+  color:#337AB7;
+  border: none;
+  position: initial;
+}
+.routeTab .home-content .message-content li button{
+  margin-left: 5px;
+}
+
+.routeTab .home-content .message-content .medetail.active{
+  color: white;
+}
